@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey Form</title>
+<link rel="stylesheet"  href="css/bootstrap.css">
+<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+			<form id="form" class="form-horizontal">
+				<div id="mainForm">
+					<h1>Survey Questions</h1>
+					<h2>What's your favorite animal?</h2>
+					<input name="animal" type="checkbox" value="Cats"> Cats <br>
+					<input name="animal" type="checkbox" value="Dogs"> Dogs<br>
+					<input name="animal" type="checkbox" value="Snake"> Snake<br>
+					<input name="animal" type="checkbox" value="Birds"> Birds<br>
+					<input name="animal" type="checkbox" value="none"> None of the above<br>
+
+
+
+
+					<h2>What's your favorite car?</h2>
+					<select name="cars" id ="select">
+					  <option value="choose one" name="option">Choose one</option>
+					  <option value="volvo" name="option">Volvo XC90</option>
+					  <option value="saab" name="option">Saab 95</option>
+					  <option value="mercedes" name="option">Mercedes SLK</option>
+					  <option value="audi" name="option">Audi TT</option>
+					</select>
+					
+                    
+                    <h2>Which city do you like?</h2>
+					
+					  <input type="radio" name="city" value="San Francisco"> San Francisco<br>
+					  <input type="radio" name="city" value="New York"> New York <br>
+					  <input type="radio" name="city" value="Chicago"> Chicago <br>
+					  <input type="radio" name="city" value="Los Angeles"> Los Angeles<br>
+					  <input type="radio" name="city" value="Boston"> Boston<br>
+
+					<br>
+					<br>
+
+					<div class="form-actions">
+					<button type="button" id="submitButton" class="btn btn-default">Submit Survey</button>
+				    </div>
+				</div>
+			</form>
+            </div>
+        </div>
+</div>    
+
+					<script src="js/main.js"></script>
+
+</body>
+</html>
